@@ -1,0 +1,36 @@
+.App{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.formtitle{
+    align-self: center;
+}
+
+.formitem{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.formcontent{
+    margin: 5px;
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.submitbutton{
+    margin: 5px;
+    align-self: center;
+}
+
