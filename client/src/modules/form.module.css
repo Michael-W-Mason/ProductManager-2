@@ -1,10 +1,10 @@
-.App{
+.formcontainer{
     margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 
 .formtitle{
@@ -15,22 +15,22 @@
     display: flex;
     align-self: center;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
 }
 
 .formcontent{
-    margin: 5px;
+    width: 100%;
+    margin: 5px 0px;
     display: flex;
     gap: 12px;
     flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 .submitbutton{
-    margin: 5px;
     align-self: center;
+    margin: 5px 0px;
 }
 
